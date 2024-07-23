@@ -75,33 +75,19 @@ export default async function Dashboard(){
           <Barchart data={monthlyUsersData}/>
         </CardContent>
         <CardContent className='flex  justify-between'>
-          {/* <section className=''>
-            <p>Recent Orders</p>
-            <p className='text-sm text-gray-400'>
-              You made 265 sales this month
-            </p>
-
-           {recentSales.map((data,i)=>(
-            <SalesCard key={i}
-            name={data.name}
-            amount={data.amount}
-            email={data.email}
-            />
-           ))}
-          </section> */}
           <p className='p-4 font-semibold'>Sales Data</p>
           <LineGraph data={monthlySalesData}/>
         </CardContent>
         <CardContent>
           <section >
-            <p>Audience</p>
+            <p className='p-4 font-semibold'>Audience</p>
           </section>
          <PieGraph/>
   
         </CardContent>
         <CardContent className='flex justify-between'>
           <section className=''>
-            <p>Recent Orders</p>
+            <p className='p-4 font-semibold'>Recent Orders</p>
             <p className='text-sm text-gray-400'>
               You made 265 sales this month
             </p>

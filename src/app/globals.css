@@ -71,18 +71,3 @@
   ::-webkit-scrollbar{
     display: block;
   }
-
-.dark{
-  background-color: #0f172a;
-  width: 100%;
-  color: white;
-}
-.light{
-  background-color: white;
-  width: 100%;
-  color: black;
-}
-.main-content{
-  flex-grow: 1;
-  overflow: hidden;
-}
